@@ -1,0 +1,674 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Love</title>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="js/script.js"/>
+  <link rel="stylesheet" href="css/gallery/foundation.min.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/gallery/set1.css" />
+  <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" type="text/css" href="images/icon.png">
+  </head>
+  <body id="drink" data-spy="scroll" data-target=".navbar" data-offset="50">
+      <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+       <img src="images/logo.png" style="width: 7%;border-radius:50%;
+      -moz-border-radius:50%;
+      -webkit-border-radius:50%;">
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right" >
+         <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Food-Drink<span class="caret"></span></a>
+            <ul class="dropdown-menu" >
+              <li><a href="food.html">Food</a></li>
+              <li><a href="drink.html">Drink</a></li>
+  			<li><a href="anvat.html">Ăn Vặt - Vỉa Hè</a></li>
+  			<li><a href="abum.html">Abum Ảnh</a></li>
+  			<li><a href="about.html">About Us</a></li>
+            </ul>
+  		<li><a href="login.html"><span class="glyphicon glyphicon-user"></span> &#160;Login</a></li>
+  		<li><form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+        <input type="text" placeholder="Search.." name="search2">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        </form></li>
+        </ul></li>
+      </div>
+    </div>
+  </nav><br> <br><br><br>
+
+  	<div id="content">
+  	<center><h1>Drink</h1></center>
+  	<div class="container">
+  <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Q.Hải Châu</button>
+  <button class="tablink" onclick="openPage('News', this, 'red')">Q.Liên Chiểu</button>
+  <button class="tablink" onclick="openPage('Contact', this, 'red')">Q.Sơn Trà</button>
+  <button class="tablink" onclick="openPage('About', this, 'red')">Q.Ngũ Hành Sơn</button>
+  <div id="Home" class="tabcontent">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/trasua.jpg" alt="Lights" style="width:100%">
+            <div class="caption">
+              <b>Trà Sữa Trân Châu</b>
+  			<p>176 Trần Phú , Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/nature.jpg" target="_blank">
+            <img src="images/anhdrink/coffee.jpg" alt="Nature" style="width:100%">
+            <div class="caption">
+              <b>Coffe's House</b>
+  			<p>Huỳnh Tấn Phát, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+  	<div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/tra.jpg" alt="Lights" style="width:100%; height:180px">
+            <div class="caption">
+              <b>Trà Hoa Quả</b>
+  			<p>Bùng Binh, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/fjords.jpg" target="_blank">
+            <img src="images/anhdrink/tradao.jpg" alt="Fjords" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Trà Đào </b>
+  			<p>30 Lê Đình Dương, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+       <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/epdau.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Nước Ép Dâu Tằm</b>
+  			<p>176 Trần Phú , Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/nature.jpg" target="_blank">
+            <img src="images/anhdrink/nuoc2.jpg" alt="Nature" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Nước Ép Hoa Quả</b>
+  			<p>185 Lê Duẩn, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+  	<div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/bear.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Bia Hơi</b>
+  			<p>Nguyễn Văn Linh, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/fjords.jpg" target="_blank">
+            <img src="images/anhdrink/soda.jpg" alt="Fjords" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>SoDa </b>
+  			<p>30 Lê Đình Dương, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+       <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/wine.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Wine - Trần Phú</b>
+  			<p>176 Trần Phú , Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/nature.jpg" target="_blank">
+            <img src="images/anhdrink/suachua.jpg" alt="Nature" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Yaout Dâu</b>
+  			<p>187 Lê Duẩn, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+  	<div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/cocktail.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Coktail</b>
+  			<p>Nguyễn Văn Linh, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/fjords.jpg" target="_blank">
+            <img src="images/anhdrink/sampanh.jpg" alt="Fjords" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Wine Champan </b>
+  			<p>30 Lê Đình Dương, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    	<div id="News" class="tabcontent">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/nhoep.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Nước Nho Ép</b>
+  			<p>176 Trần Phú , Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/nature.jpg" target="_blank">
+            <img src="images/anhdrink/nuocep.jpg" alt="Nature" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Nước Ép </b>
+  			<p>Thọ Phát, Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+  	<div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/chanh.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Nước Chanh Tây Ép</b>
+  			<p>26 Bùng Binh, Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/fjords.jpg" target="_blank">
+            <img src="images/anhdrink/capuchino.jpg" alt="Fjords" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Capuchino </b>
+  			<p>30 Lê Đình Dương, Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+       <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/trà.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Trà - Trần Phú</b>
+  			<p>176 Trần Phú , Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/nature.jpg" target="_blank">
+            <img src="images/anhdrink/volka.jpg" alt="Nature" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Rượu Volka</b>
+  			<p>18 Huỳnh Tấn, Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+  	<div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/tea.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Happy Tea</b>
+  			<p>Bùng Binh, Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/fjords.jpg" target="_blank">
+            <img src="images/anhdrink/den.jpg" alt="Fjords" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Cà Phê Đen</b>
+  			<p>30 Lê Đình Dương, Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+       <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/ep.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Nước Ép Rau Củ</b>
+  			<p>176 Trần Phú , Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/nature.jpg" target="_blank">
+            <img src="images/anhdrink/tea2.jpg" alt="Nature" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Tea</b>
+  			<p>15 Huỳnh Tấn, Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+  	<div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/tra2.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Trà Hoa Cúc</b>
+  			<p>Nguyễn Linh, Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/fjords.jpg" target="_blank">
+            <img src="images/anhdrink/camep.jpg" alt="Fjords" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Nước Cam Ép</b>
+  			<p>30 Lê Dương, Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+      <div id="Contact" class="tabcontent">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/tradao22.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Trà Đào - GongCha</b>
+  			<p>176 Trần Phú , Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/nature.jpg" target="_blank">
+            <img src="images/anhdrink/tragung.jpg" alt="Nature" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Trà Gừng </b>
+  			<p>Lê Quý Đôn, Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+  	<div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/trasua1.png" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Trà Sữa Rau Câu</b>
+  			<p>Bùng Binh, Q.Liên Chiểu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/fjords.jpg" target="_blank">
+            <img src="images/anhdrink/trasua3.jpg" alt="Fjords" style="width:100%:height:180px:">
+            <div class="caption">
+              <b>Trà Sữa Trân Châu </b>
+  			<p>30 Lê Đình Dương, Q.Sơn Trà, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+       <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/trasua4.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Trà Sữa Hoàng Gia</b>
+  			<p>176 Trần Phú , Q.Sơn Trà, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/nature.jpg" target="_blank">
+            <img src="images/anhdrink/trabi2.jpg" alt="Nature" style="width:100%:height:180px;">
+            <div class="caption">
+              <b>Trà Bí Đao</b>
+  			<p>27 Trần Phú, Q.Sơn Trà, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+  	<div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/tranchau.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Sữa Tươi Trân Châu</b>
+  			<p>Bùng Linh, Q.Sơn Trà, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/fjords.jpg" target="_blank">
+            <img src="images/anhdrink/trà.jpg" alt="Fjords" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>MatCha Trà Xanh</b>
+  			<p>30 Lê Đình Dương, Q.Sơn Trà, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+       <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/trathai.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Trà Sữa Thái</b>
+  			<p>176 Trần Phú , Q.Sơn Trà, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/nature.jpg" target="_blank">
+            <img src="images/anhdrink/trasua6.jpg" alt="Nature" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Trà Sữa BoBaBoop</b>
+  			<p>Huỳnh Tấn Phát, Q.Sơn Trà, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+  	<div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/trasua7.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Trà Sữa A Lắc</b>
+  			<p> Nguyễn Văn Linh, Q.Sơn Trà, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/fjords.jpg" target="_blank">
+            <img src="images/anhdrink/trasua9.jpg" alt="Fjords" style="width:100%:height:180px;">
+            <div class="caption">
+              <b>Trà Lu </b>
+  			<p>30 Lê Đình Dương, Q.Sơn Trà, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+      <div id="About" class="tabcontent">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/bear.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Bia Hơi</b>
+  			<p>176 Lê Văn Hiến , Q.NHS, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/nature.jpg" target="_blank">
+            <img src="images/anhdrink/bia3.jpg" alt="Nature" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Rượu Tây</b>
+  			<p> Huỳnh Tấn Phát, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+  	<div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/trasua6.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Trà Sữa Trân Châu</b>
+  			<p>Nguyễn Văn Linh, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/fjords.jpg" target="_blank">
+            <img src="images/anhdrink/tradao.jpg" alt="Fjords" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Trà Đào </b>
+  			<p>30 Lê Đình Dương, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+       <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/coffee.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Cà Phê Vành Đai</b>
+  			<p>176 Trần Phú , Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/nature.jpg" target="_blank">
+            <img src="images/anhdrink/nhoep.jpg" alt="Nature" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Nước Việt Quất </b>
+  			<p> Huỳnh Tấn Phát, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+  	<div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/epdau.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Nước Ép Dâu Tằm</b>
+  			<p> Nguyễn Văn Linh, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/fjords.jpg" target="_blank">
+            <img src="images/anhdrink/trà.jpg" alt="Fjords" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Trà Gừng </b>
+  			<p>30 Lê Đình Dương, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+       <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/trabi.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Trà Bí Ngô</b>
+  			<p>176 Trần Phú , Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/nature.jpg" target="_blank">
+            <img src="images/anhdrink/suachua.jpg" alt="Nature" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Sữa Chua Đánh Đá</b>
+  			<p> Huỳnh Tấn Phát, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+  	<div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/lights.jpg" target="_blank">
+            <img src="images/anhdrink/ep.jpg" alt="Lights" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Rau Củ Ép</b>
+  			<p>Nguyễn Văn Linh, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/anhdrink/fjords.jpg" target="_blank">
+            <img src="images/anhdrink/trasua.jpg" alt="Fjords" style="width:100%;height:180px;">
+            <div class="caption">
+              <b>Coffe Tuyết </b>
+  			<p>30 Lê Đình Dương, Q.Hải Châu, Đà Nẵng<p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+      </div>
+  	
+
+  	<div class="footer">
+    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+  	<p class="copyright" style="color:white">Copyright &copy; 2018 <a href="index.html">Food Love</a><a> Phone: 01666-388-171</a></p>
+  	  <p style="color:white">Adress: Hòa Quý, Quận Ngũ Hành Sơn, TP.Đà Nẵng</p>
+        <p class="developer" style="color:white"> By Nguyễn Bảo Ngọc - Hồ Hà Giang</p>
+    </a>
+      </div>
+  	
+  <script>
+  function openPage(pageName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+
+  }
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
+  <script>
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function(){
+          window.location.hash = hash;
+        });
+      } 
+    });
+  })
+  </script>
+  <script src="js/gallery/masonry.pkgd.min.js" type="text/javascript"></script> 
+  <script src="js/gallery/imagesloaded.pkgd.min.js" type="text/javascript"></script> 
+  <script src="js/gallery/main.js" type="text/javascript"></script> 
+  </body>
+  </html>
